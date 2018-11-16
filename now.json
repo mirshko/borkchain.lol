@@ -1,8 +1,5 @@
 {
   "name": "borkchain",
   "alias": "borkchain.lol",
-  "version": 2,
-  "builds": [
-    { "src": "*.*", "use": "@now/static" }
-  ]
+  "version": 2
 }
