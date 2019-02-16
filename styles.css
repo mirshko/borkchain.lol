@@ -1,13 +1,14 @@
 :root {
-  --blue: rgba(29,173,235,1);
-  --purple: rgba(137,149,250,1);
-  --pink: rgba(229,109,212,1);
-  --red: rgba(255,68,128,1);
-  --orange: rgba(255,68,128,1);
+  --blue: rgba(29, 173, 235, 1);
+  --purple: rgba(137, 149, 250, 1);
+  --pink: rgba(229, 109, 212, 1);
+  --red: rgba(255, 68, 128, 1);
+  --orange: rgba(255, 68, 128, 1);
 }
 
 html {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 body {
@@ -56,7 +57,7 @@ img {
   animation-name: rotate;
   animation-duration: 5s;
   animation-timing-function: linear;
-  animation-iteration-count: infinite; 
+  animation-iteration-count: infinite;
 }
 
 @keyframes rotate {
