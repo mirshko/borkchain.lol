@@ -24,33 +24,20 @@ img {
 }
 
 .colorshift {
-  animation-name: colorshift;
-  animation-duration: 60s;
-  animation-fill-mode: both;
-  animation-iteration-count: infinite;
+  /* animation: 10s linear 0s infinite normal forwards running; */
 
-  background-color: var(--blue);
-}
-
-@keyframes colorshift {
-  0% {
-    background-color: var(--blue);
-  }
-  20% {
-    background-color: var(--purple);
-  }
-  40% {
-    background-color: var(--pink);
-  }
-  60% {
-    background-color: var(--red);
-  }
-  80% {
-    background-color: var(--orange);
-  }
-  100% {
-    background-color: var(--blue);
-  }
+  background: repeating-linear-gradient(
+      -45deg,
+      rgb(0, 84, 253) 0%,
+      rgb(255, 25, 247) 7.14%,
+      rgb(255, 46, 93) 14.28%,
+      rgb(255, 170, 7) 21.42%,
+      rgb(255, 170, 7) 28.56%,
+      rgb(255, 46, 93) 35.7%,
+      rgb(255, 25, 247) 42.84%,
+      rgb(0, 84, 253) 50%
+    )
+    0% 0% / 300vw 300vw;
 }
 
 .rotate {
@@ -64,12 +51,6 @@ img {
   100% {
     transform: rotate(1turn);
   }
-}
-
-.list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
 }
 
 a {
